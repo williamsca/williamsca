@@ -1,9 +1,3 @@
----
-layout: post
-title: A Story About Why Workers Change Jobs
-mathjax: true
----
-
 I consider the simple problem of when a worker should find a new job. It's puzzled me that people will stay at my firm for only two years and then move elsewhere, so this is the start of an explanation.<br />
 <br />
 The worker (call her Ruby) chooses when to switch between two firms operating in a competitive economy over a unit time period. Ruby's hourly wage at either firm is given by $$w_t = \lambda E_t$$ where $E_t$ is the amount of human capital she supplies in time period $t$, and $\lambda$ is the rental price paid for a single unit of human capital. For simplicity, I assume $\lambda = 1$ so that $w_t = E_t$.<br />
