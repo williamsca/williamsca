@@ -28,7 +28,7 @@ As a brief sanity check, I examined data on the median employee tenure.&nbsp; Th
 
 In any case, the solution is more easily digested with a picture. If all of the worker's human capital is general ($\alpha = 1$), then she will choose to switch firms at $k = 0.2$. Her lifetime income is given by the area under the two lines below:<br />
 
-![png](images/SwitchingFirms_switch.png)
+![png](images\SwitchingFirms_switch.png)
 
 As $\alpha$ decreases, the worker will choose to switch firms earlier.
 
