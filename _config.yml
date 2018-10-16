@@ -9,7 +9,7 @@ name: Routine Construction
 description: Killing time until the next bout of creative destruction. Mostly economics and League of Legends.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: {{ site.baseurl }}/images/routine_construction.jpg
+avatar: https://raw.githubusercontent.com/williamsca/williamsca.github.io/master/images/routine_construction.jpg
 # avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 #
