@@ -6,7 +6,7 @@ mathjax: true
 
 I consider the simple problem of when a worker should find a new job. It's puzzled me that people will stay at my firm for only two years and then move elsewhere, so this is the start of an explanation.
 
-The worker (call her Ruby) chooses when to switch between two firms operating in a competitive economy over a unit time period. Ruby's hourly wage at either firm is given by $$w_t = \lambda E_t$$ where $E_t$ is the amount of human capital she supplies in time period $t$, and $\lambda$ is the rental price paid for a single unit of human capital. For simplicity, I assume $\lambda = 1$ so that $w_t = E_t$.
+The worker (call her Ruby) chooses when to switch between two firms operating in a competitive economy over a unit time period. Ruby's hourly wage at either firm is given by $$w_t = \lambda E_t$$ where \(E_t\) is the amount of human capital she supplies in time period $t$, and $\lambda$ is the rental price paid for a single unit of human capital. For simplicity, I assume $\lambda = 1$ so that $w_t = E_t$.
 
 Ruby accumulates human capital on the job at a diminishing rate (I learned far more in the first week of my new job than in the most recent). For ease of exposition, let it grow according to the square root of time: $E_t = \sqrt{t}$. This human capital is either firm-specific or general. If Ruby chooses to jump ship to another firm at time $k \in [0, 1)$, she is able to bring with her $\alpha \sqrt{k}$ units of capital, where $\alpha \in[0, 1]$ is the fraction of general human capital she possesses. All of the idiosyncratic, firm-specific knowledge Ruby has acquired is lost when she transfers.
 
