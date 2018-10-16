@@ -14,21 +14,22 @@ If she does change firms, however, Ruby "jump-starts'' her accumulation of human
 &nbsp;$$ E_t = \begin{cases} \sqrt{t}, &amp; 0 \leq t &lt; k \\ \alpha \sqrt{k} + \sqrt{t - k}, &amp; k \leq t \leq 1 \end{cases} $$<br />
 Ruby wants to maximize her lifetime income $Y$ by choosing a time $k$ to switch firms (Ruby is more interested in her career than in a family right now):
 \begin{align*} 
-Y &amp;= \int_0^1 w_t \\
-&amp;= \int_0^1 E_t \\
-&amp; = \int_0^k \sqrt{t}~dt + \int_k^1\alpha \sqrt{k} + \sqrt{t - k}~dt \\
-&amp;= \Big(\frac{2}{3} - \alpha\Big)k^{3/2} + \alpha \sqrt{k} + \frac{2}{3}(1-k)^{3/2}
+Y &;= \int_0^1 w_t \\
+& = \int_0^1 E_t \\
+& = \int_0^k \sqrt{t}~dt + \int_k^1\alpha \sqrt{k} + \sqrt{t - k}~dt \\
+&= \Big(\frac{2}{3} - \alpha\Big)k^{3/2} + \alpha \sqrt{k} + \frac{2}{3}(1-k)^{3/2}
 \end{align*}
 
-Taking the derivative and setting equal to zero gives the optimal time to switch as \begin{align}k = \frac{\alpha + 2 - \sqrt{-9\alpha^4 + 12\alpha^3 - 7 \alpha^2 + 4 \alpha + 4}}{9 \alpha^2- 12 \alpha + 8}\end{align}<br />
+Taking the derivative and setting equal to zero gives the optimal time to switch as $$k = \frac{\alpha + 2 - \sqrt{-9\alpha^4 + 12\alpha^3 - 7 \alpha^2 + 4 \alpha + 4}}{9 \alpha^2- 12 \alpha + 8}$$ <br />
 For $\alpha = 1$, this gives $k = 0.2$. In other words, this form of human capital production tells you to switch jobs no later than 20% of the way through your career. As $\alpha$ decreases, so do the lifetime gains from switching: $\dfrac{\partial Y}{\partial \alpha} = k^{1/2}(1-k) \geq 0$, and so too does the optimal time to switch.
 
 <b>Comments</b>
+
 As a brief sanity check, I examined data on the median employee tenure.&nbsp; The BLS reports the median tenure among workers aged 25 to 34 as <a href="https://www.bls.gov/news.release/pdf/tenure.pdf">2.8 years</a>&nbsp;in 2016. Unsurprisingly, the median tenure of older workers aged 55 to 64 was almost four times larger (10.1 years). Exactly as this (admittedly simplistic) problem predicts, most job switching takes place at the beginning of a career. Of course, this behavior could have nothing to do with human capital and instead be the result of an imperfect matching process. <br />
 
 In any case, the solution is more easily digested with a picture. If all of the worker's human capital is general ($\alpha = 1$), then she will choose to switch firms at $k = 0.2$. Her lifetime income is given by the area under the two lines below:<br />
 
-![png](images\SwitchingFirms_switch.png)
+![png]({{ site.baseurl }}/images/SwitchingFirms_switch.png)
 
 As $\alpha$ decreases, the worker will choose to switch firms earlier.
 
