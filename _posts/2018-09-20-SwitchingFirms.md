@@ -12,7 +12,7 @@ Ruby accumulates human capital on the job at a diminishing rate (I learned far m
 
 If she does change firms, however, Ruby "jump-starts'' her accumulation of human capital due to the unfamiliar environment. Surrounded by new people and ideas, her own creativity and motivation are dramatically increased, so her stock of capital at time $t &gt; k$ is given by $\alpha \sqrt{k} + \sqrt{t - k}$. Thus, at any point in time we can compute Ruby's human capital:
 
-$$ E_t = \begin{cases} \sqrt{t}, &amp; 0 \leq t &lt; k \\ \alpha \sqrt{k} + \sqrt{t - k}, &amp; k \leq t \leq 1 \end{cases} $$
+$$ E_t = \begin{cases} \sqrt{t}, & 0 \leq t < k \\ \alpha \sqrt{k} + \sqrt{t - k}, & k \leq t \leq 1 \end{cases} $$
 
 Ruby wants to maximize her lifetime income $Y$ by choosing a time $k$ to switch firms (Ruby is more interested in her career than in a family right now):
 $$
@@ -28,7 +28,7 @@ $$k = \dfrac{\alpha + 2 - \sqrt{-9\alpha^4 + 12\alpha^3 - 7 \alpha^2 + 4 \alpha 
 
 For $\alpha = 1$, this gives $k = 0.2$. In other words, this form of human capital production tells you to switch jobs no later than 20% of the way through your career. As $\alpha$ decreases, so do the lifetime gains from switching: 
 
-$$\dfrac{\partial Y}{\partial \alpha} = k^{1/2}(1-k) \geq 0$$, 
+$$\dfrac{\partial Y}{\partial \alpha} = k^{1/2}(1-k) \geq 0$$ 
 
 and so too does the optimal time to switch.
 
