@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: What is the Use of a Political Opinion?
