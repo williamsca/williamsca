@@ -1,6 +1,8 @@
+
 ---
 layout: post
 title: What is the Use of a Political Opinion?
+categories: Opinion
 ---
 
 It is well known that the liklihood your vote will affect the outcome of the presidential election is [vanishingly small](https://www.stat.berkeley.edu/~aldous/157/Papers/vote.pdf). Suppose, for the sake of argument, that it is effectively 0.

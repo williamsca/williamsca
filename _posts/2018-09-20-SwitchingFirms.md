@@ -2,6 +2,7 @@
 layout: post
 title: A Story About Why Workers Change Jobs
 mathjax: true
+categories: Economics
 ---
 
 I consider the simple problem of when a worker should find a new job. It's puzzled me that people will stay at my firm for only two years and then move elsewhere, so this is the start of an explanation.
