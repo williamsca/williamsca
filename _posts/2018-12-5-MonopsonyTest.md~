@@ -38,7 +38,7 @@ plotFirms([(0.5, 0.5)], ["R"])
 
 
 ---
-Ruby is eager to maximize her profits. She can sell her widgets back East for 1 gold each, and each worker she hires can produce 1 widget. Thus, her profit is given by $\prod = N_w * (1 - w)$, where $N_w$ is the number of workers she can hire at wage $w$. 
+Ruby is eager to maximize her profits. She can sell her widgets back East for 1\$ each, and each worker she hires can produce 1 widget. Thus, her profit is given by $\prod = N_w * (1 - w)$, where $N_w$ is the number of workers she can hire at wage $w$. 
 
 
 ```python
@@ -47,7 +47,7 @@ def profit(w, N_w):
     return -(N_w * (1 - w))  
 ```
 
-The farmers in the region can always obtain a wage of zero by working in the field. They incur travel costs $\beta$ that are linear in the distance to Ruby's factory, so they will choose to work whenever $$w - \beta \sqrt{(x_n - 0.5)^2 + (y_n - 0.5)^2} \geq 0$$
+The farmers in the region can always obtain a wage of \$0 by working in the field. They incur travel costs $\beta$ that are linear in the distance to Ruby's factory, so they will choose to work whenever $$w - \beta \sqrt{(x_n - 0.5)^2 + (y_n - 0.5)^2} \geq 0$$
 
 The factory's "draw area" is the circle $\frac{w^2}{\beta^2} = (x - 0.5)^2 + (y - 0.5)^2$. The area of this circle is $A = \pi * \frac{w^2}{\beta^2}$. Note that $A$ is also the fraction of the unit square contained by $A$.
 

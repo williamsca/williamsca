@@ -5,7 +5,6 @@ mathjax: true
 categories: Economics
 ---
 
-# There's No Free Lunch
 [Last time](https://williamsca.github.io/Monopsony1/), I introduced a simple spatial model with a single firm hiring workers across space. Now, I add a competitor and prepare to ask more interesting questions about monopsony and the labor market.
 
 Code snippets from last time that are re-used are included at the top.
