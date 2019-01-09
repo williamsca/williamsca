@@ -44,7 +44,7 @@ There is a remarkable episode in the new title [What Remains of Edith Finch](htt
 
 ![jpg]({{ site.baseurl }}/images/EdithFinch.jpg)
 
-The sequence is disturbing because the character has invented for himself a completely /single-player/ game. His fantasy world does not admit guests, and he ultimately never leaves it. So long as games are played (or at least discussed) together, they remain tethered to the world rather than floating free into the ether.
+The sequence is disturbing because the character has invented for himself a completely *single-player* game. His fantasy world does not admit guests, and he ultimately never leaves it. So long as games are played (or at least discussed) together, they remain tethered to the world rather than floating free into the ether.
 
 You can think about games as tools for learning, harmless pastimes, or dangerously anti-social, and you would be right. Fortnite is *Robinson Crusoe*, playing outside, and slamming the door to your room, all rolled into one. At the end of the day, though, it's also something to share.
 
