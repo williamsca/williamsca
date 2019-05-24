@@ -4,4 +4,4 @@ title: Despite What You May Think After Watching the Game of Thrones Finale, Mos
 categories: Opinion
 ---
 
-!png({{ site.baseurl }}/images/IMDb Episode Ratings.png)
+![png]({{ site.baseurl }}/images/IMDb Episode Ratings.png)
