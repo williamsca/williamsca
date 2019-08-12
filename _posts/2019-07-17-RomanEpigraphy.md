@@ -72,8 +72,8 @@ merged.plot(edgecolor='gray', column='inscriptions_per_km',
 # Label the provinces
 for idx, row in merged.iterrows():
     if pd.notnull(row['label']):
-        plt.annotate(s=row['label'], xy=row['coords'], horizontalalignment='center', 
-                     size=12, color='.1')
+        plt.annotate(s=row['label'], xy=row['coords'], 
+		horizontalalignment='center', size=12, color='.1')
 
 
 # Title and notes
@@ -81,17 +81,18 @@ ax.axis('off')
 ax.set_title('Density of Epigraphic Writing Across the Roman Empire', 
              fontdict={'fontsize': '28', 'fontweight' : '5', 
 			 'fontname' : 'Times New Roman'})
-ax.annotate('Source: Epigraphic Database Heidelberg accessed July 2019.', 
+ax.annotate('Source: Epigraphic Database Heidelberg accessed July 2019', 
             xy=(0.12, 0.1),  xycoords='figure fraction', 
 			horizontalalignment='left', verticalalignment='top', 
 			fontsize=18, color='#555555')
    
 # Add a colorbar     
 vmin, vmax = 0, .11
-sm = plt.cm.ScalarMappable(cmap='OrRd', norm=plt.Normalize(vmin=vmin, vmax=vmax))    
+sm = plt.cm.ScalarMappable(cmap='OrRd', 
+                           norm=plt.Normalize(vmin=vmin, vmax=vmax))
 sm._A = []
-cb = ax.get_figure().colorbar(sm, ax=ax, orientation='horizontal', fraction=.1, 
-             shrink = .5, pad=-.1)
+cb = ax.get_figure().colorbar(sm, ax=ax, orientation='horizontal', 
+                             fraction=.1, shrink = .5, pad=-.1)
 cb.set_label('Inscriptions per Sq. Kilometer', size=18)
 
 fig.savefig(directory + "\\roman_inscriptions.png", dpi=400)
