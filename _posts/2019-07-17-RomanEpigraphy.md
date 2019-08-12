@@ -11,7 +11,9 @@ Across the Empire, Romans inscribed the significant events of their lives on sto
 
 ![png]({{ site.baseurl }}/images/20190812 Roman Inscriptions Map.png)
 
-The data include all 76,652 inscriptions from the (Epigraphic Database Heidelberg)[https://edh-www.adw.uni-heidelberg.de/home] that indicate where the inscription was found. Wilson (2014) suggests using these inscriptions as a proxy for Roman economic activity. This map is a first stab at exploring the data to that end.
+The highest concentration of writing comes from the immediate vicinity of Rome, but epigraphy extended to Greece, Germany, Northern Africa, and parts of Asia Minor as well.
+
+The data include all 76,652 inscriptions from the [Epigraphic Database Heidelberg](https://edh-www.adw.uni-heidelberg.de/home) that indicate where the inscription was found. Wilson (2014) suggests using these inscriptions as a proxy for Roman economic activity. This map is a first stab at exploring the data to that end.
 
 ---
 
@@ -64,7 +66,8 @@ merged['coords'] = merged['geometry'].apply(lambda x: x.centroid.coords[:])
 merged['coords'] = [coords[0] for coords in merged['coords']]
 
 fig, ax = plt.subplots(1, figsize=(30,24))
-merged.plot(edgecolor='gray', column='inscriptions_per_km', ax=ax, cmap='OrRd')
+merged.plot(edgecolor='gray', column='inscriptions_per_km', 
+            ax=ax, cmap='OrRd')
 
 # Label the provinces
 for idx, row in merged.iterrows():
@@ -76,10 +79,12 @@ for idx, row in merged.iterrows():
 # Title and notes
 ax.axis('off')  
 ax.set_title('Density of Epigraphic Writing Across the Roman Empire', 
-             fontdict={'fontsize': '28', 'fontweight' : '5', 'fontname' : 'Times New Roman'})
+             fontdict={'fontsize': '28', 'fontweight' : '5', 
+			 'fontname' : 'Times New Roman'})
 ax.annotate('Source: Epigraphic Database Heidelberg accessed July 2019.', 
-            xy=(0.12, 0.1),  xycoords='figure fraction', horizontalalignment='left', 
-            verticalalignment='top', fontsize=18, color='#555555')
+            xy=(0.12, 0.1),  xycoords='figure fraction', 
+			horizontalalignment='left', verticalalignment='top', 
+			fontsize=18, color='#555555')
    
 # Add a colorbar     
 vmin, vmax = 0, .11
@@ -94,9 +99,9 @@ fig.savefig(directory + "\\roman_inscriptions.png", dpi=400)
 
 ---
 
-# Sources:
+## Sources:
 
-Wilson, Andrew I. 2014. "Quantifying Roman Economic Performance by Means of Proxies : Pitfalls and Potential." Edited by Francois de Callatay, 147-67. Pragmateiai. Edipuglia. [https://ora.ox.ac.uk/objects/pubs:503490]
+Wilson, Andrew I. 2014. "Quantifying Roman Economic Performance by Means of Proxies : Pitfalls and Potential." Edited by Francois de Callatay, 147-67. Pragmateiai. Edipuglia. <https://ora.ox.ac.uk/objects/pubs:503490>
 
 Cooley, Benjamin. "Let's make a map! Using Geopandas, Pandas, and Matplotlib to make a Choropleth map." Medium. 
-	[https://towardsdatascience.com/lets-make-a-map-using-geopandas-pandas-and-matplotlib-to-make-a-chloropleth-map-dddc31c1983d]
+	<https://towardsdatascience.com/lets-make-a-map-using-geopandas-pandas-and-matplotlib-to-make-a-chloropleth-map-dddc31c1983d>
