@@ -53,7 +53,7 @@ merged.replace({'num_inscriptions': {np.nan:0},
 
 extra = ['Thessalia', 'Hellespontus', 'Caria', 'Lydia', 'Phrygia I', 
          'Phrygia II', 'Pisidia', 'Hellespontus', 
-		 'Mauretania Sitifensis', 'Praevalitana', 'Epirus Vetus']
+	 'Mauretania Sitifensis', 'Praevalitana', 'Epirus Vetus']
 merged = merged[merged.num_inscriptions != 0 | 
                 merged.all_names.isin(extra)]
 
@@ -82,9 +82,9 @@ ax.set_title('Density of Epigraphic Writing Across the Roman Empire',
              fontdict={'fontsize': '28', 'fontweight' : '5', 
 			 'fontname' : 'Times New Roman'})
 ax.annotate('Source: Epigraphic Database Heidelberg accessed July 2019', 
-            xy=(0.12, 0.1),  xycoords='figure fraction', 
-			horizontalalignment='left', verticalalignment='top', 
-			fontsize=18, color='#555555')
+	        xy=(0.12, 0.1),  xycoords='figure fraction', 
+		horizontalalignment='left', verticalalignment='top', 
+		fontsize=18, color='#555555')
    
 # Add a colorbar     
 vmin, vmax = 0, .11
