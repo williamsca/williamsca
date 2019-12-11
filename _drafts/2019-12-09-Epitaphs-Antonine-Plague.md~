@@ -1,0 +1,23 @@
+---
+layout: post
+title: Roman Epitaphs & the Antonine Plague 
+categories: Economics
+tags: ['Rome', 'Epigraphy']
+---
+
+
+
+![png]({{ site.baseurl }}/images/20191209 Roman Epitaphs by Year.png)
+
+```stata
+hist year_unif if inrange(year_unif, -100, 500) & type_of_inscription_code == 9, ///
+		width(50) graphregion(color(white)) bgcolor(white) fcolor(navy) ///
+		fintensity(inten80) lcolor(black) ///
+		freq addlabel yscale(off) ylabel(0 5259, nogrid) ///
+		xlabel(-100(50)500, labsize(small)) xtitle("") ///
+		title("Roman Epitaphs by Year", color(black) ring(0) position(11)) ///
+		text(4600 330 "Most epitaphs date to the half-century" ///
+				 "of the {bf:Antonine Plague} (165-180 AD).", size(small) color(sand)) ///
+		note("{bf:Source:} Epigraphic Database Heidelberg, retrieved from https://edh-www.adw.uni-heidelberg.de/home on 7/17/2019." ///
+			 "{bf:Note:} Chart shows all records with inscription type 'epitaph', graphed according to an equal probability of dating to any year within their date range.", color(gs7) size(vsmall))
+```
