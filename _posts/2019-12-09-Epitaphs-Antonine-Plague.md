@@ -5,24 +5,6 @@ categories: Economics
 tags: ['Rome', 'Epigraphy']
 ---
 
-Some observations and an hypothesis from the inscription data.
-
-The number of inscriptions produced in the Roman Empire peaks around the 2nd century AD. The increase is not driven by a single type of inscription; instead, all inscription types grow and shrink in absolute terms while maintaining similar proportions.
-
-![png]({{ site.baseurl }}/images/20191211 Roman Epitaphs by Year.png)
-
-The top five types of inscription -- epitaph, votive, honorific,
-owner/artist, and building/dedicatory -- account for more than 90% of
-all inscriptions in the sample. Votive inscriptions accumulate share
-from epitaphs until around 200 AD, at which point they fall back to
-their initial level of 10%. Otherwise, there is little variation over
-the centuries. 
-
-## Example is the School of Mankind
-An **epitaph** commemorates the dead. Common epitaphs include X and Y.
-
-Votive 
-
 ## What Drives Epigraphic Writing?
 
 The demand for epitaphs will depend on several
@@ -32,7 +14,8 @@ commemoration. It follows that periods of high
 mortality will be associated with more epitaphs. When the death rate
 is high, there will be relatively more subjects for epitaphs, and -- in a Malthusian
 economy -- their surviving relatives will have extra income available
-for "luxury" purchases that signal their wealth, like fancy inscriptions.
+for "luxury" purchases that signal their wealth, like fancy
+inscriptions. ([^1])
 
 The city of Rome suffered a series of epidemics in the latter half of
 the first century. ([^1]) Tacitus writes of Rome in 65 AD([^2]): 
@@ -59,7 +42,7 @@ peninsula:
 & Italy).png)
 
 The chart shows the total number of inscriptions dating to each half-century
-beginning in 50 BC until 450 AD separately for the city of Rome and the rest of
+beginning in 50 BC until 450 AD, separately for the city of Rome and the rest of
 the Italian provinces. The two series track each other
 in every period except for 50 - 100 AD. A heightened mortality rate in
 Rome during these years is the best explanation for the
@@ -95,8 +78,8 @@ the trends until 200 AD.
 ![png]({{ site.baseurl }}/images/20191217 Honorifics by Year (Rome
 & Italy).png)
 
-Building/dedicatory inscriptions similarly do not exhibit a break in
-50 - 100 AD.
+Building/dedicatory inscriptions similarly track each other across the
+sample period.
 
 ### Final Thoughts
 I don't want to overstate my case. I know very little about how
@@ -107,8 +90,21 @@ overdetermined.
 
 ## Appendix
 
-### Plague Simulations
+### Demographic Simulations
+TODO
 
+### General Trends in Inscriptions
+
+The number of inscriptions produced in the Roman Empire peaks around the 2nd century AD. The increase is not driven by a single type of inscription; instead, all inscription types grow and shrink in absolute terms while maintaining similar proportions.
+
+![png]({{ site.baseurl }}/images/20191211 Roman Epitaphs by Year.png)
+
+The top five types of inscription -- epitaph, votive, honorific,
+owner/artist, and building/dedicatory -- account for more than 90% of
+all inscriptions in the sample. Votive inscriptions accumulate share
+from epitaphs until around 200 AD, at which point they fall back to
+their initial level of 10%. Otherwise, there is little variation over
+the centuries. 
 
 
 ## Code
@@ -135,6 +131,12 @@ twoway (bar tot year_bucket, fcolor(ltbluishgray) fintensity(inten60) lcolor(bla
 ```
 
 ## Sources
+[^1] Similarly, the Black Death "concentrated wealth, often
+substantial family fortunes, in fewer and younger hands.... Even with
+a reduced population, the gross volume of luxury goods manufactured
+and sold rose." See Rout, David. "The Economic Impact of the Black
+Death". *EH.net Encyclopedia*, edited by Robert Whaples. July
+20, 2008. http://eh.net/encyclopedia/the-economic-impact-of-the-black-death/
 [^1] Harper, Kyle. "Database of Pestilence in the Roman
 Empire". *KyleHarper.net*, August 24, 2017, https://www.kyleharper.net/uncategorized/database-of-pestilence-in-the-roman-empire/
 [^2] Tacitus Ann 16.13. From *Complete Works of Tacitus*. Alfred John Church. William Jackson
