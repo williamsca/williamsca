@@ -18,7 +18,7 @@ for "luxury" purchases that signal their wealth, like fancy
 inscriptions. ([^1])
 
 The city of Rome suffered a series of epidemics in the latter half of
-the first century. ([^1]) Tacitus writes of Rome in 65 AD([^2]): 
+the first century. ([^2]) Tacitus writes of Rome in 65 AD([^3]): 
 
 > a terrible plague was sweeping away all classes of human beings
 > without any such derangement of the atmosphere as to be visibly
@@ -30,7 +30,7 @@ the first century. ([^1]) Tacitus writes of Rome in 65 AD([^2]):
 > been sitting and shedding tears.
 
 Two further plagues followed in 77 AD and 79/80 AD. These epidemics were local to the city, and
-do not appear to have spread to the rest of Italy. ([^2]) Under
+do not appear to have spread to the rest of Italy. ([^4]) Under
 reasonable assumptions about the demographic consequences of these
 plagues, it is plausible that they had a measurable effect on the
 demand for epitaphs (see appendix for more details). Consistent
@@ -38,8 +38,7 @@ with this story, the number of epitaphs dating to this period from Rome
 jumps sharply relative to those from the rest of the Italian
 peninsula:
 
-![png]({{ site.baseurl }}/images/20191216 Roman Epitaphs by Year (Rome
-& Italy).png)
+![png]({{ site.baseurl }}/images/20191216 Epitaphs by Year (Rome & Italy).png)
 
 The chart shows the total number of inscriptions dating to each half-century
 beginning in 50 BC until 450 AD, separately for the city of Rome and the rest of
@@ -75,8 +74,7 @@ in Rome. However, this does not happen. Honorifics are the second most
 common type of inscription in Italy, and there is little difference in
 the trends until 200 AD.
 
-![png]({{ site.baseurl }}/images/20191217 Honorifics by Year (Rome
-& Italy).png)
+![png]({{ site.baseurl }}/images/20191217 Honorifics by Year (Rome & Italy).png)
 
 Building/dedicatory inscriptions similarly track each other across the
 sample period.
@@ -110,14 +108,19 @@ the centuries.
 ## Code
 
 ```stata
+// General Trends in Inscriptions
 local scatter_options "msize(small) c(1) yaxis(2) lpattern(-) lwidth(thin)" 
 twoway (bar tot year_bucket, fcolor(ltbluishgray) fintensity(inten60) lcolor(black) ytitle("") ///
 	ylabel(0 12000, nogrid) yscale(off) yaxis(1) barwidth(50)) || ///
 		(scatter frac year_bucket if type_of_inscription_code == 9, `scatter_options') || ///
-		(scatter frac year_bucket if type_of_inscription_code == 22, `scatter_options') || ///				  (scatter frac year_bucket if type_of_inscription_code == 5, `scatter_options') || ///		   
+		(scatter frac year_bucket if type_of_inscription_code == 22,
+		`scatter_options') || ///				  
+		(scatter frac year_bucket if type_of_inscription_code == 5, `scatter_options') || ///		 
 		(scatter frac year_bucket if type_of_inscription_code == 10, `scatter_options') || ///
 		(scatter frac year_bucket if type_of_inscription_code == 17, `scatter_options') || ///
-		(scatter lab year_bucket, msym(none) mlab(tot) mlabpos(12) mlabcolor(gs5) mlabsize(small)), ///		 graphregion(color(white)) bgcolor(white) xlabel(-50(50)400) ///
+		(scatter lab year_bucket, msym(none) mlab(tot) mlabpos(12)
+		mlabcolor(gs5) mlabsize(small)), ///		 
+		graphregion(color(white)) bgcolor(white) xlabel(-50(50)400) ///
 		legend(order(3 "Epitaph" 4 "Votive" 5 "Building" 6 "Honorific" 7 "Owner/Artist") ///
 			symxsize(10) cols(5) region(style(none))) ///
 		title("Inscriptions peak in 150 AD, but their relative quantities are roughly constant", ///
@@ -137,10 +140,10 @@ a reduced population, the gross volume of luxury goods manufactured
 and sold rose." See Rout, David. "The Economic Impact of the Black
 Death". *EH.net Encyclopedia*, edited by Robert Whaples. July
 20, 2008. http://eh.net/encyclopedia/the-economic-impact-of-the-black-death/
-[^1] Harper, Kyle. "Database of Pestilence in the Roman
+[^2] Harper, Kyle. "Database of Pestilence in the Roman
 Empire". *KyleHarper.net*, August 24, 2017, https://www.kyleharper.net/uncategorized/database-of-pestilence-in-the-roman-empire/
-[^2] Tacitus Ann 16.13. From *Complete Works of Tacitus*. Alfred John Church. William Jackson
+[^3] Tacitus Ann 16.13. From *Complete Works of Tacitus*. Alfred John Church. William Jackson
 Brodribb. Sara Bryant. edited for Perseus. New York: Random House,
 Inc. reprinted in 1942.
-[^2] Harper, Kyle. "Database of Pestilence in the Roman
+[^4] Harper, Kyle. "Database of Pestilence in the Roman
 Empire". Harper notes that "interregional events -- spreading beyond one province or so -- were rare before the outbreak of the Antonine Plague. It seems unlikely that pandemics occurred but went unattested."
