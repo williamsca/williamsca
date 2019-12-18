@@ -134,16 +134,7 @@ twoway (bar tot year_bucket, fcolor(ltbluishgray) fintensity(inten60) lcolor(bla
 ```
 
 ## Sources
-[^1]: Similarly, the Black Death "concentrated wealth, often
-substantial family fortunes, in fewer and younger hands.... Even with
-a reduced population, the gross volume of luxury goods manufactured
-and sold rose." See Rout, David. "The Economic Impact of the Black
-Death". *EH.net Encyclopedia*, edited by Robert Whaples. July
-20, 2008. http://eh.net/encyclopedia/the-economic-impact-of-the-black-death/
-[^2]: Harper, Kyle. "Database of Pestilence in the Roman
-Empire". *KyleHarper.net*, August 24, 2017, https://www.kyleharper.net/uncategorized/database-of-pestilence-in-the-roman-empire/
-[^3]: Tacitus Ann 16.13. From *Complete Works of Tacitus*. Alfred John Church. William Jackson
-Brodribb. Sara Bryant. edited for Perseus. New York: Random House,
-Inc. reprinted in 1942.
-[^4]: Harper, Kyle. "Database of Pestilence in the Roman
-Empire". Harper notes that "interregional events -- spreading beyond one province or so -- were rare before the outbreak of the Antonine Plague. It seems unlikely that pandemics occurred but went unattested."
+[^1]: Similarly, the Black Death "concentrated wealth, often substantial family fortunes, in fewer and younger hands.... Even with a reduced population, the gross volume of luxury goods manufactured and sold rose." See Rout, David. "The Economic Impact of the Black Death". *EH.net Encyclopedia*, edited by Robert Whaples. July 20, 2008. http://eh.net/encyclopedia/the-economic-impact-of-the-black-death/
+[^2]: Harper, Kyle. "Database of Pestilence in the Roman Empire". *KyleHarper.net*, August 24, 2017, https://www.kyleharper.net/uncategorized/database-of-pestilence-in-the-roman-empire/
+[^3]: Tacitus Ann 16.13. From *Complete Works of Tacitus*. Alfred John Church. William Jackson Brodribb. Sara Bryant. edited for Perseus. New York: Random House, Inc. reprinted in 1942.
+[^4]: Harper, Kyle. "Database of Pestilence in the Roman Empire". Harper notes that "interregional events -- spreading beyond one province or so -- were rare before the outbreak of the Antonine Plague. It seems unlikely that pandemics occurred but went unattested."
