@@ -18,7 +18,7 @@ for "luxury" purchases that signal their wealth, like fancy
 inscriptions. ([^1])
 
 The city of Rome suffered a series of epidemics in the latter half of
-the first century. ([^2]) Tacitus writes of Rome in 65 AD([^3]): 
+the first century. ([^2]) Tacitus writes of Rome in 65 AD ([^3]): 
 
 > a terrible plague was sweeping away all classes of human beings
 > without any such derangement of the atmosphere as to be visibly
@@ -72,7 +72,7 @@ in Rome relative to Italy during these years.
 If this were the case, other types of inscription should also increase
 in Rome. However, this does not happen. Honorifics are the second most
 common type of inscription in Italy, and there is little difference in
-the trends until 200 AD.
+their trends until 200 AD.
 
 ![png]({{ site.baseurl }}/images/20191217 Honorifics by Year (Rome & Italy).png)
 
@@ -134,7 +134,7 @@ twoway (bar tot year_bucket, fcolor(ltbluishgray) fintensity(inten60) lcolor(bla
 ```
 
 ## Sources
-[^1]: Similarly, the Black Death "concentrated wealth, often substantial family fortunes, in fewer and younger hands.... Even with a reduced population, the gross volume of luxury goods manufactured and sold rose." See Rout, David. "The Economic Impact of the Black Death". *EH.net Encyclopedia*, edited by Robert Whaples. July 20, 2008. http://eh.net/encyclopedia/the-economic-impact-of-the-black-death/
-[^2]: Harper, Kyle. "Database of Pestilence in the Roman Empire". *KyleHarper.net*, August 24, 2017, https://www.kyleharper.net/uncategorized/database-of-pestilence-in-the-roman-empire/
+[^1]: Similarly, the Black Death "concentrated wealth, often substantial family fortunes, in fewer and younger hands.... Even with a reduced population, the gross volume of luxury goods manufactured and sold rose." See Rout, David. "The Economic Impact of the Black Death". *EH.net Encyclopedia*, edited by Robert Whaples. July 20, 2008. <http://eh.net/encyclopedia/the-economic-impact-of-the-black-death/>
+[^2]: Harper, Kyle. "Database of Pestilence in the Roman Empire". *KyleHarper.net*, August 24, 2017, <https://www.kyleharper.net/uncategorized/database-of-pestilence-in-the-roman-empire/>
 [^3]: Tacitus Ann 16.13. From *Complete Works of Tacitus*. Alfred John Church. William Jackson Brodribb. Sara Bryant. edited for Perseus. New York: Random House, Inc. reprinted in 1942.
 [^4]: Harper, Kyle. "Database of Pestilence in the Roman Empire". Harper notes that "interregional events -- spreading beyond one province or so -- were rare before the outbreak of the Antonine Plague. It seems unlikely that pandemics occurred but went unattested."
