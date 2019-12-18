@@ -10,8 +10,7 @@ Welcome to my economics blog. It exists to develop "a habit of expression",
 maintain familiarity with math and programming, and to /appear/
 productive at work during slow days. 
 
-I'm a Kansan, a graduate of Williams College,
-a student of economics, and I work in antitrust consulting in Washington, D.C. 
+I'm a Kansan, a student of economics, and I now work in antitrust consulting in Washington, D.C. 
 
 I'm now curious about [monopsony power in labor markets](https://equitablegrowth.org/working-papers/anticompetitive-mergers/) and [why people move to cities](https://www.richmondfed.org/publications/research/economic_brief/2018/eb_18-10). 
 
