@@ -30,10 +30,10 @@ the first century. ([^2]) Tacitus writes of Rome in 65 AD ([^3]):
 > been sitting and shedding tears.
 
 Two further plagues followed in 77 AD and 79/80 AD. These epidemics were local to the city, and
-do not appear to have spread to the rest of Italy. ([^4]) Under
-reasonable assumptions about the demographic consequences of these
-plagues, it is plausible that they had a measurable effect on the
-demand for epitaphs (see appendix for more details). Consistent
+do not appear to have spread to the rest of Italy. ([^4]) By
+concentrating family estates in the hands of fewer individuals with
+many recently-deceased relatives, it is plausible that the plagues had a measurable effect on the
+demand for epitaphs. Consistent
 with this story, the number of epitaphs dating to this period from Rome
 jumps sharply relative to those from the rest of the Italian
 peninsula:
@@ -68,6 +68,13 @@ freed slaves increased starting in
 TODO: check whether the % of epitaphs referring to freedmen increases
 in Rome relative to Italy during these years.
 
+Finally, it is possible that the civil war starting in 68 AD increased
+the political value of epitaphs located in Rome relative to the rest of Italy,
+perhaps as a way to advertise loyalty to Vespasian's regime
+after he consolidated power. 
+
+TODO: check how the text of epitaphs changes.
+
 #### What if the population or wealth of Rome increased?
 If this were the case, other types of inscription should also increase
 in Rome. Honorifics are the second most
@@ -77,9 +84,13 @@ than the change in epitaphs.
 
 ![png]({{ site.baseurl }}/images/20191217 Honorifics by Year (Rome & Italy).png)
 
-Building/dedicatory inscriptions similarly track each other across the
-sample period. It is not clear what effect the plagues would have on
-the demand for these types of inscription.
+A small increase in honorifics is consistent with elevated mortality driving
+demand for luxury goods. The fact that the relative increase is
+proportionally much smaller than the increase in epitaphs also accords
+with a plague, rather than newfound wealth through taxes or conquest.
+
+Building/dedicatory inscriptions also track each other closely across the
+sample period.
 
 ### Final Thoughts
 I don't want to overstate my case. I know very little about how
@@ -87,25 +98,18 @@ these data are collected and categorized, or what factors influence
 which inscriptions get recorded, or about the history of the Roman Empire. Moreover, the accuracy of the dates
 and locations is subject to substantial uncertainty, and over a
 fifty-year time interval, any observed 'effect' will surely be
-overdetermined.
-
-For instance, it is possible that the civil war starting in 68 AD increased the
-value of epitaphs located in Rome relative to the rest of Italy,
-perhaps as a way to advertise loyalty to the new regime of Vespasian
-after he consolidated power. One may tell innumerable other such
-stories, each time committing the *post hoc ergo propter hoc* fallacy
-("after this, therefore because of this"). 
+overdetermined. It is easy to commit the fallacy *post hoc ergo
+propter hoc* ("after this, therefore because of it").
 
 It is strange that only once do the trends in inscribed epitaphs
 differ between Rome and Italy. Presumably, epidemics occurred at other
 times between 50 BC and 450 AD. I look at other recorded cases of
 pestilance in the appendix, though unfortunately there are no other
-cases of localized epidemics in provinces with good inscription data.
+cases of localized epidemics in provinces with good inscription
+data. Later plagues often spread through the entire Empire, so
+determining their effect on the demand for epitaphs is not straightforward.
 
 ## Appendix
-
-### Demographic Simulations
-TODO
 
 ### Other Epidemics
 TODO
