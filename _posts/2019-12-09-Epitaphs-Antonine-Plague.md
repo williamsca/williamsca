@@ -89,17 +89,18 @@ and locations is subject to substantial uncertainty, and over a
 fifty-year time interval, any observed 'effect' will surely be
 overdetermined.
 
-It is strange that only once do the trends in inscribed epitaphs
-differ between Rome and Italy. Presumably, epidemics occurred at other
-times between 50 BC and 450 AD. I look at other cases of pestilance in
-the Empire in the appendix.
-
 For instance, it is possible that the civil war starting in 68 AD increased the
 value of epitaphs located in Rome relative to the rest of Italy,
 perhaps as a way to advertise loyalty to the new regime of Vespasian
 after he consolidated power. One may tell innumerable other such
 stories, each time committing the *post hoc ergo propter hoc* fallacy
 ("after this, therefore because of this"). 
+
+It is strange that only once do the trends in inscribed epitaphs
+differ between Rome and Italy. Presumably, epidemics occurred at other
+times between 50 BC and 450 AD. I look at other recorded cases of
+pestilance in the appendix, though unfortunately there are no other
+cases of localized epidemics in provinces with good inscription data.
 
 ## Appendix
 
