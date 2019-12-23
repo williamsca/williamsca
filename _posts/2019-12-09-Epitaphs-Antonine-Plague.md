@@ -38,7 +38,7 @@ with this story, the number of epitaphs dating to this period from Rome
 jumps sharply relative to those from the rest of the Italian
 peninsula:
 
-![png]({{ site.baseurl }}/images/20191216 Epitaphs by Year (Rome & Italy).png)
+![png]({{ site.baseurl }}/images/20191216 Epitaphs by Year - Uniform (Rome & Italy).png)
 
 The chart shows the total number of inscriptions dating to each half-century
 beginning in 50 BC until 450 AD, separately for the city of Rome and the rest of
@@ -98,13 +98,21 @@ these data are collected and categorized, or what factors influence
 which inscriptions get recorded, or about the history of the Roman Empire. Moreover, the accuracy of the dates
 and locations is subject to substantial uncertainty, and over a
 fifty-year time interval, any observed 'effect' will surely be
-overdetermined. It is easy to commit the fallacy *post hoc ergo
+overdetermined. 
+
+Finally, the trend is extremely sensitive to whether
+the inscriptions are dated at the average of the range (which tends to
+over-represent the latter half of each century, as many inscriptions
+are dated between 1 and 100, or 101 and 200), or according to a
+uniform draw. Ultimately, the dates are not precise enough to provide
+much confidence about any inferences drawn from the data.
+
+It is easy to commit the fallacy *post hoc ergo
 propter hoc* ("after this, therefore because of it").
 
-It is strange that only once do the trends in inscribed epitaphs
-differ between Rome and Italy. Presumably, epidemics occurred at other
-times between 50 BC and 450 AD. I look at other recorded cases of
-pestilance in the appendix, though unfortunately there are no other
+Epidemics occurred at other
+times between 50 BC and 450 AD, but the trends in Rome and Italy are
+generally parallel. I investigate these plagues in the appendix, though unfortunately there are no other
 cases of localized epidemics in provinces with good inscription
 data. Later plagues often spread through the entire Empire, so
 determining their effect on the demand for epitaphs is not straightforward.
