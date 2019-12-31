@@ -38,12 +38,12 @@ with this story, the number of epitaphs dating to this period from Rome
 jumps sharply relative to those from the rest of the Italian
 peninsula:
 
-![png]({{ site.baseurl }}/images/20191216 Epitaphs by Year - Uniform (Rome & Italy).png)
+![png]({{ site.baseurl }}/images/20191220 Epitaphs by Year - Uniform (Rome & Italy).png)
 
 The chart shows the total number of inscriptions dating to each half-century
 beginning in 50 BC until 450 AD, separately for the city of Rome and the rest of
 the Italian provinces. The two series track each other
-in every period except for 50 - 100 AD. A heightened mortality rate in
+in every period except for 50 - 150 AD. A heightened mortality rate in
 Rome during these years is the best explanation for the
 divergence; other explanations come up short.
 
