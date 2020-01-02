@@ -11,7 +11,7 @@ consumers with 'convenient companionship'.
 It is old news that Americans are [desperately
 lonely](https://www.forbes.com/sites/neilhowe/2019/05/03/millennials-and-the-loneliness-epidemic/#413ba10f7676),
 [untethered](https://en.wikipedia.org/wiki/Bowling_Alone)
-to their communities and increasingly contented to sit in their
+from their communities and increasingly contented to sit in their
 [single-person
 households](https://www.census.gov/library/visualizations/2019/comm/one-person-households.html)
 watching Netflix and staring at their navels. And no wonder: recent
@@ -21,8 +21,9 @@ great time to live alone. The services provided by a flesh-and-blood
 community are increasingly available without any of the hassle.
 
 ## Friends without any benefits
-I suspect that many parents, confronted with stubbornly single
-children, advocate for church
+One of the primary benefits to spending time in a community is
+the chance to meet a compatible romantic partner. Most parents, confronted with stubbornly single
+children, will advocate for church
 membership or some similar scheme as a way to locate a suitable
 match. Fortunately for the free-thinking, the stigma against online
 dating has largely dissipated, dating apps facilitate more matches
@@ -82,5 +83,5 @@ problem or a financial one, when so many apparent substitutes for human
 connection exist. Is loneliness fundamentally a relative measure akin
 to success? Or is it more like a disease that might eventually be cured?
 
-[^1]: see Finkel's [The All-or-Nothing Marriage](https://www.nytimes.com/2014/02/15/opinion/sunday/the-all-or-nothing-marriage.html)
+[^1]: See Finkel's [The All-or-Nothing Marriage](https://www.nytimes.com/2014/02/15/opinion/sunday/the-all-or-nothing-marriage.html)
 
