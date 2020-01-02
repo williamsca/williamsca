@@ -82,6 +82,5 @@ problem or a financial one, when so many apparent substitutes for human
 connection exist. Is loneliness fundamentally a relative measure akin
 to success? Or is it more like a disease that might eventually be cured?
 
-[^1]: see Finkel's [The All-or-Nothing
-Marriage](https://www.nytimes.com/2014/02/15/opinion/sunday/the-all-or-nothing-marriage.html)
+[^1]: see Finkel's [The All-or-Nothing Marriage](https://www.nytimes.com/2014/02/15/opinion/sunday/the-all-or-nothing-marriage.html)
 
