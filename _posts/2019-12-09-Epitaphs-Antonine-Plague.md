@@ -50,18 +50,15 @@ example with data in half-century buckets is at best speculative.
 I review some competing hypothesis below.
 
 #### What if the population or wealth of Rome increased?
-If this were the case, other types of inscription should also increase
-in Rome. Honorifics are the second most
-common type of inscription in Italy, and while Rome does see an
-increase relative to the other Italian provinces, it is less dramatic
-than the change in epitaphs.
+If this were the case, other types of inscription might also increase
+in Rome, but that does not happen. Honorifics are the second most
+common type of inscription in Italy, and the number of honorifics
+decreases across all of Italy in 50 - 100 AD.
 
 ![png]({{ site.baseurl }}/images/20191217 Honorifics by Year (Rome & Italy).png)
 
-A small increase in honorifics is consistent with elevated mortality driving
-demand for luxury goods. The fact that the relative increase is
-proportionally much smaller than the increase in epitaphs also accords
-with a plague, rather than newfound wealth through taxes or conquest.
+The pattern for building / dedicatory and votive inscriptions is
+similarly parallel between Rome and Italy during the 1st century.
 
 #### What if the mortality rate in Italy fell?
 If so, why did it not also fall in Rome itself? A localized increase
@@ -81,32 +78,25 @@ relative to Italy as a whole, and if the popularity of epitaphs among
 freed slaves increased starting in
 50 BC, then epitaphs in Rome would increase.
 
-[]: # (TODO: check whether the % of epitaphs referring to freedmen
-increases in Rome relative to Italy during these years.)
-
 Finally, it is possible that the civil war starting in 68 AD increased
 the political value of epitaphs located in Rome relative to the rest of Italy,
 perhaps as a way to advertise loyalty to Vespasian's regime
 after he consolidated power. 
 
-[]: # (TODO: check how the text of epitaphs changes.)
-
 ### Final Thoughts
 While the evidence above is suggestive, my conclusion is that there is
 no clear relationship between epidemics and the demand for
 inscriptions. Epidemics occurred at other
-times and other Roman provinces between 50 BC and 400 AD. These plagues have no apparent effect on the
-production of inscriptions. Later plagues often spread through the entire Empire, so
-determining their effect on the demand for epitaphs is not
-straightforward.
+times and other Roman provinces between 50 BC and 400 AD, and these plagues had no apparent effect on the
+production of epitaphs or any other type of inscription. 
 
 In addition, the trend is extremely sensitive to whether
 the inscriptions are dated at the average of the range (which tends to
 over-represent the latter half of each century, as many inscriptions
 are dated between 1 and 100, or 101 and 200), or according to a
-uniform draw. *Ultimately, the dates are not precise enough to provide
-much confidence about any inferences drawn from the data.* This exercise
-nevertheless clarified my thinking about inscriptions.
+uniform draw. Ultimately, the dates are not precise enough to provide
+much confidence about any inferences drawn from the data. This exercise
+nevertheless clarified my thinking about Roman epigraphy.
 
 ## Appendix
 
