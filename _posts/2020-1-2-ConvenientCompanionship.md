@@ -34,7 +34,7 @@ jealous friends and pay a steep price to break up, as future social
 interactions are all but inevitable. Online dating, however, neatly
 avoids these problems, as mutual friends who might be jealous or take
 sides afterwards simply do not exist. There is less benefit to making
-friends at church or the bowling league if you can find a date online.
+friends at church or the bowling league if you can find your date online.
 
 ## Conversations without friends
 Social groups also provide a setting to speak and to listen. The
@@ -62,7 +62,7 @@ of old letters that I keep in the closet.
 Community groups provide a basket of public goods. Anyone who joins can
 access the full menu of benefits, though their comparative advantage
 in providing those benefits has been eroded by competition. Besides
-introductions to potential partners and conversation, community groups
+introductions to potential partners and facilitating conversation, community groups
 provide professional networking (LinkedIn), localized knowledge
 (Google & Yelp), and some
 degree of insurance against illness and job loss, among others. To avoid the free-rider problem, groups often require a credible sign of

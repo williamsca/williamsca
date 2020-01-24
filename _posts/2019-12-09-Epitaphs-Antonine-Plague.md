@@ -7,14 +7,14 @@ tags: ['Rome', 'Epigraphy']
 
 ## What Drives Epigraphic Writing?
 
-The demand for epitaphs will depend on several
-conditions: how many Romans died, their wealth, and the
+The demand for epitaphs ought to depend on several
+conditions: the number of Romans who died, their wealth, and the
 popularity of inscribed epitaphs relative to other forms of
 commemoration for the dead. It follows that periods of high
 mortality will be associated with more epitaphs. When the death rate
 is high, there will be relatively more subjects for epitaphs, and -- in a Malthusian
-economy -- their surviving relatives will have extra income available
-for "luxury" purchases that signal their wealth, like fancy
+economy -- their surviving relatives will have extra cash available
+for "luxury" purchases that exhibit their wealth, like high quality
 inscriptions. ([^1])
 
 The city of Rome suffered a series of epidemics in the latter half of
@@ -43,9 +43,25 @@ peninsula:
 The chart shows the total number of inscriptions dating to each half-century
 beginning in 50 BC until 450 AD, separately for the city of Rome and the rest of
 the Italian provinces. The two series track each other
-in every period except for 50 - 150 AD. A heightened mortality rate in
-Rome during these years is the best explanation for the
-divergence; other explanations come up short.
+in every period except for 50 - 150 AD. The pattern is consistent with
+heighted mortality shifting out demand for inscriptions, but a single
+example with data in half-century buckets is at best speculative. 
+
+I review some competing hypothesis below.
+
+#### What if the population or wealth of Rome increased?
+If this were the case, other types of inscription should also increase
+in Rome. Honorifics are the second most
+common type of inscription in Italy, and while Rome does see an
+increase relative to the other Italian provinces, it is less dramatic
+than the change in epitaphs.
+
+![png]({{ site.baseurl }}/images/20191217 Honorifics by Year (Rome & Italy).png)
+
+A small increase in honorifics is consistent with elevated mortality driving
+demand for luxury goods. The fact that the relative increase is
+proportionally much smaller than the increase in epitaphs also accords
+with a plague, rather than newfound wealth through taxes or conquest.
 
 #### What if the mortality rate in Italy fell?
 If so, why did it not also fall in Rome itself? A localized increase
@@ -65,62 +81,34 @@ relative to Italy as a whole, and if the popularity of epitaphs among
 freed slaves increased starting in
 50 BC, then epitaphs in Rome would increase.
 
-TODO: check whether the % of epitaphs referring to freedmen increases
-in Rome relative to Italy during these years.
+[]: # (TODO: check whether the % of epitaphs referring to freedmen
+increases in Rome relative to Italy during these years.)
 
 Finally, it is possible that the civil war starting in 68 AD increased
 the political value of epitaphs located in Rome relative to the rest of Italy,
 perhaps as a way to advertise loyalty to Vespasian's regime
 after he consolidated power. 
 
-TODO: check how the text of epitaphs changes.
-
-#### What if the population or wealth of Rome increased?
-If this were the case, other types of inscription should also increase
-in Rome. Honorifics are the second most
-common type of inscription in Italy, and while Rome does see an
-increase relative to the other Italian provinces, it is less dramatic
-than the change in epitaphs.
-
-![png]({{ site.baseurl }}/images/20191217 Honorifics by Year (Rome & Italy).png)
-
-A small increase in honorifics is consistent with elevated mortality driving
-demand for luxury goods. The fact that the relative increase is
-proportionally much smaller than the increase in epitaphs also accords
-with a plague, rather than newfound wealth through taxes or conquest.
-
-Building/dedicatory inscriptions also track each other closely across the
-sample period.
+[]: # (TODO: check how the text of epitaphs changes.)
 
 ### Final Thoughts
-I don't want to overstate my case. I know very little about how
-these data are collected and categorized, or what factors influence
-which inscriptions get recorded, or about the history of the Roman Empire. Moreover, the accuracy of the dates
-and locations is subject to substantial uncertainty, and over a
-fifty-year time interval, any observed 'effect' will surely be
-overdetermined. 
+While the evidence above is suggestive, my conclusion is that there is
+no clear relationship between epidemics and the demand for
+inscriptions. Epidemics occurred at other
+times and other Roman provinces between 50 BC and 400 AD. These plagues have no apparent effect on the
+production of inscriptions. Later plagues often spread through the entire Empire, so
+determining their effect on the demand for epitaphs is not
+straightforward.
 
-Finally, the trend is extremely sensitive to whether
+In addition, the trend is extremely sensitive to whether
 the inscriptions are dated at the average of the range (which tends to
 over-represent the latter half of each century, as many inscriptions
 are dated between 1 and 100, or 101 and 200), or according to a
-uniform draw. Ultimately, the dates are not precise enough to provide
-much confidence about any inferences drawn from the data.
-
-It is easy to commit the fallacy *post hoc ergo
-propter hoc* ("after this, therefore because of it").
-
-Epidemics occurred at other
-times between 50 BC and 450 AD, but the trends in Rome and Italy are
-generally parallel. I investigate these plagues in the appendix, though unfortunately there are no other
-cases of localized epidemics in provinces with good inscription
-data. Later plagues often spread through the entire Empire, so
-determining their effect on the demand for epitaphs is not straightforward.
+uniform draw. *Ultimately, the dates are not precise enough to provide
+much confidence about any inferences drawn from the data.* This exercise
+nevertheless clarified my thinking about inscriptions.
 
 ## Appendix
-
-### Other Epidemics
-TODO
 
 ### General Trends in Inscriptions
 
@@ -134,8 +122,6 @@ all inscriptions in the sample. Votive inscriptions accumulate share
 from epitaphs until around 200 AD, at which point they fall back to
 their initial level of 10%. Otherwise, there is little variation over
 the centuries. 
-
-
 
 ## Code
 
