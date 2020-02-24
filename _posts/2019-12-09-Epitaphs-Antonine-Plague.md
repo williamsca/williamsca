@@ -87,7 +87,7 @@ after he consolidated power.
 While the evidence above is suggestive, my conclusion is that there is
 no clear relationship between epidemics and the demand for
 inscriptions. Epidemics occurred at other
-times and other Roman provinces between 50 BC and 400 AD, and these plagues had no apparent effect on the
+times and in other Roman provinces between 50 BC and 400 AD, and these plagues had no apparent effect on the
 production of epitaphs or any other type of inscription. 
 
 In addition, the trend is extremely sensitive to whether
