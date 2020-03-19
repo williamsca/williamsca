@@ -17,9 +17,14 @@ as well as unrelated servants, apprentices, and farmhands." This type
 of household was most common before 1900, and supplied labor to
 family-run businesses, like farms or dry-good stores.
 
-One drawback of extended families is that they make moving extremely
-costly. 
+Brooks notes that living with a large families may limit mobility. It's not so easy to uproot children and grandparents when a
+better job opens up in the next state. Strangely, the largest families are
+just as likely to move as 2-person ones:
 
-[Logistic regression on Pr(move|size of HH)]
+![png]({{ site.baseurl }}/images/20200223 Singles Move More.png)
+
+
+
+
 
 People choose a family arrangement that will benefit them.
