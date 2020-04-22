@@ -6,9 +6,7 @@ mathjax: true
 tags: ['History', 'Differential Equations']
 ---
 
-See https://apmonitor.com/pdc/index.php/Main/SolveDifferentialEquations.
-
-When does violence end quickly, and when does it escalate into broader conflict? The competition between Native American tribes over bison hunting grounds during the mid-1800s provides an illustrative example. Lakotas, Crows, Omahas, Poncas, and other groups roamed the plains on horseback, seeking food for the winter and hides to sell to American traders. 
+When does violence end quickly, and when does it escalate into broader conflict? The conflict between Native American tribes over bison hunting grounds during the mid-1800s provides an illustrative example. Lakotas, Crows, Omahas, Poncas, and other groups roamed the plains on horseback, seeking food for the winter and hides to sell to American traders. 
 
 Clashes between the tribes led to cycles of killings and retribution. The dynamic resulted from specific features of their environment. Pekka H&aum1m&aum1l&aum1inen notes that the tribes "tended to avoid places where they where bound to run into enemies, and some of those places became buffer zones, no-man's lands people entered with caution if at all. That made them veritable animal preserves." These zones were "rich in game, intensely coveted, and hotly disputed." ([^1]) In short, the conflict caused the disputed land to become even more valuable, thus increasing the potential pay-off to the tribe able to claim those lands for themselves.
 
@@ -31,11 +29,11 @@ equilibrium.
 
 Let *x* be the number of bison, *y* the number of hunters, and *z* the number of raiders. The populations change through time according the equations
 
-\begin{equations}
+\begin{equation}
 \frac{dx}{dt} = x - xy \\
 \frac{dy}{dt} = xy - y(z^\alpha) \\
 \frac{dz}{dt} = x - z
-\end{equations}
+\end{equation}
 
 To simplify the exposition, I include only one parameter $\alpha \in
 \{0, 1\}$, which indicates whether the region is contested. When the
@@ -47,8 +45,7 @@ population attracts more and more hunters, who deplete the bison
 population and then switch to other hunting grounds while the bison
 herds recover. The populations continue to cycle between low and high.
 
-![png]({{ site.baseurl }}/images/20200422 Bison Dynamics (No
-Raiders).png) 
+![png]({{ site.baseurl }}/images/20200422 Bison Dynamics (No Raiders).png) 
 
 When $\alpha = 1$, raiders affect the population dynamic. In a
 situation where bison are initially plentiful, the equilibrium
@@ -56,8 +53,7 @@ solution to the system is one with high levels of bison and raiders
 and relatively fewer hunters. The land is heavily contested and
 lightly hunted.
 
-![png]({{ site.baseurl }}/images/20200422 Bison Dynamics (Large
-Herds).png) 
+![png]({{ site.baseurl }}/images/20200422 Bison Dynamics (Large Herds).png) 
 
 Similarly, high initial levels of raiders also cause the system to
 arrive at a high-conflict equilibrium, even when bison are initially scarce.
@@ -141,4 +137,4 @@ plt.show()
 ```
 
 ## Sources
-[^1]: H&aum1m&aum1l&aum1ine, Pekka. *Lakota America*. New Haven: Yale University Press, 2019.
+[^1]: Hamalainen, Pekka. *Lakota America*. New Haven: Yale University Press, 2019.
