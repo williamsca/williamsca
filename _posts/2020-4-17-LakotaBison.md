@@ -6,18 +6,16 @@ mathjax: true
 tags: ['History', 'Differential Equations']
 ---
 
-When does violence end quickly, and when does it escalate into broader conflict? The conflict between Native American tribes over bison hunting grounds during the mid-1800s provides an illustrative example. Lakotas, Crows, Omahas, Poncas, and other groups roamed the plains on horseback, seeking food for the winter and hides to sell to American traders. 
+When does violence end quickly, and when does it escalate into broader conflict? The competition between Native American tribes over bison hunting grounds during the mid-1800s provides an illustrative example. Lakotas, Crows, Omahas, Poncas, and other groups roamed the plains on horseback, seeking food for the winter and hides to sell to American traders. 
 
-Clashes between the tribes led to cycles of killings and retribution. The dynamic resulted from specific features of their environment. Pekka H&aum1m&aum1l&aum1inen notes that the tribes "tended to avoid places where they where bound to run into enemies, and some of those places became buffer zones, no-man's lands people entered with caution if at all. That made them veritable animal preserves." These zones were "rich in game, intensely coveted, and hotly disputed." ([^1]) In short, the conflict caused the disputed land to become even more valuable, thus increasing the potential pay-off to the tribe able to claim those lands for themselves.
+Clashes between the tribes led to cycles of killings and retribution. The dynamic resulted from specific features of their environment. Pekka Hamalainen notes that the tribes "tended to avoid places where they where bound to run into enemies, and some of those places became buffer zones, no-man's lands people entered with caution if at all. That made them veritable animal preserves." These zones were "rich in game, intensely coveted, and hotly disputed." ([^1]) In short, the conflict caused the disputed land to become even more valuable, thus increasing the potential pay-off to the tribe able to claim those lands for themselves.
 
 I present a toy model of the conflict over bison hunting grounds based
 on the Lotka-Volterra equations, commonly used to describe the
-population dynamics of predators and prey. I model three populations:
-the bison, Native hunting parties, and Native raiding parties. The
-number of bison grows according to the current number of bison and
-decreases based on the number of hunting parties. Hunting parties are attracted to large numbers of bison, but will refrain from hunting when there are too many raiding parties. Raiding parties are also drawn to bison-rich lands, but casualties from the resulting conflict lower their numbers.
+population dynamics of predators and prey. In addition to predators
+(Native hunters) and prey (bison), I include Native raiders as a third population.
 
-The effect of adding hunting parties to the traditional predator-prey
+The effect of adding raiding parties to the traditional predator-prey
 equations is that a system with an abundance of bison can "tip" into a
 conflict zone. Escalating violence dissuades hunting parties, the
 bison population grows in the absence of predators, and more raiders
@@ -27,19 +25,25 @@ equilibrium.
 
 ## The Model
 
+I model three populations:
+the bison, Native hunting parties, and Native raiding parties. The
+number of bison grows according to the current number of bison and
+decreases based on the number of hunting parties. Hunting parties are attracted to large numbers of bison, but will refrain from hunting when there are too many raiding parties. Raiding parties are also drawn to bison-rich lands, but casualties from the resulting conflict lower their numbers.
+
 Let *x* be the number of bison, *y* the number of hunters, and *z* the number of raiders. The populations change through time according the equations
 
-\begin{equation}
+\begin{align*}
 \frac{dx}{dt} = x - xy \\
 \frac{dy}{dt} = xy - y(z^\alpha) \\
 \frac{dz}{dt} = x - z
-\end{equation}
+\end{align*}
 
 To simplify the exposition, I include only one parameter $\alpha \in
-\{0, 1\}$, which indicates whether the region is contested. When the
+\\{0, 1\\}$, which indicates whether the region is contested. When the
 region accessible to multiple rival tribes, $\alpha$ takes the
-value $1$. If controlled by a single group,
-$\alpha = 0$, raiders do not deter hunting parties, and the model
+value $1$. If controlled by a single group, raiders do not deter
+hunting parties, 
+$\alpha = 0$, and the model
 collapses into the Lotka-Volterra equations, as seen below. A growing bison
 population attracts more and more hunters, who deplete the bison
 population and then switch to other hunting grounds while the bison
@@ -59,6 +63,7 @@ Similarly, high initial levels of raiders also cause the system to
 arrive at a high-conflict equilibrium, even when bison are initially scarce.
 
 ![png]({{ site.baseurl }}/images/20200422 Bison Dynamics (Many Raiders).png) 
+
 Finally, low initial numbers of raiders and bison can put the region in a peaceful
 equilibrium with many hunters picking over thinned-out herds.
 
