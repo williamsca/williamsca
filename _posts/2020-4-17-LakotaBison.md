@@ -33,7 +33,7 @@ decreases based on the number of hunting parties. Hunting parties are attracted 
 Let *x* be the number of bison, *y* the number of hunters, and *z* the number of raiders. The populations change through time according the equations
 
 \begin{eqnarray}
-\frac{dx}{dt} = x - xy, \hfill \frac{dy}{dt} = xy - y(z^\alpha),\hfill \frac{dz}{dt} = x - z
+\frac{dx}{dt} = x - xy, \qquad \frac{dy}{dt} = xy - y(z^\alpha), \qquad \frac{dz}{dt} = x - z
 \end{eqnarray}
 
 To simplify the exposition, I include only one parameter $\alpha \in
