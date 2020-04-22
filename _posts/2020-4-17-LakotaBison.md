@@ -8,7 +8,7 @@ tags: ['History', 'Differential Equations']
 
 When does violence end quickly, and when does it escalate into broader conflict? The competition between Native American tribes over bison hunting grounds during the mid-1800s provides an illustrative example. Lakotas, Crows, Omahas, Poncas, and other groups roamed the plains on horseback, seeking food for the winter and hides to sell to American traders. 
 
-Clashes between the tribes led to cycles of killings and retribution. The dynamic resulted from specific features of their environment. Pekka Hamalainen notes that the tribes "tended to avoid places where they where bound to run into enemies, and some of those places became buffer zones, no-man's lands people entered with caution if at all. That made them veritable animal preserves." These zones were "rich in game, intensely coveted, and hotly disputed." ([^1]) In short, the conflict caused the disputed land to become even more valuable, thus increasing the potential pay-off to the tribe able to claim those lands for themselves.
+Clashes between the tribes led to cycles of killings and retribution. The dynamic resulted from specific features of their environment. Pekka Hamalainen notes that the tribes "tended to avoid places where they where bound to run into enemies, and some of those places became buffer zones, no-man's lands people entered with caution if at all. That made them veritable animal preserves." These zones were "rich in game, intensely coveted, and hotly disputed." ([^1]) In short, conflict caused the disputed land to become even more valuable, thus increasing the potential pay-off to the tribe able to claim those lands for themselves.
 
 I present a toy model of the conflict over bison hunting grounds based
 on the Lotka-Volterra equations, commonly used to describe the
@@ -32,11 +32,9 @@ decreases based on the number of hunting parties. Hunting parties are attracted 
 
 Let *x* be the number of bison, *y* the number of hunters, and *z* the number of raiders. The populations change through time according the equations
 
-\begin{eqnarray}
-\frac{dx}{dt} = x - xy \\\\
-\frac{dy}{dt} = xy - y(z^\alpha) \\\\
-\frac{dz}{dt} = x - z
-\end{eqnarray}
+\begin{equation}
+\frac{dx}{dt} = x - xy, \hfill \frac{dy}{dt} = xy - y(z^\alpha),\hfill \frac{dz}{dt} = x - z
+\end{equation}
 
 To simplify the exposition, I include only one parameter $\alpha \in
 \\{0, 1\\}$, which indicates whether the region is contested. When the
