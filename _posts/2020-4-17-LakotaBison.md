@@ -32,16 +32,16 @@ decreases based on the number of hunting parties. Hunting parties are attracted 
 
 Let *x* be the number of bison, *y* the number of hunters, and *z* the number of raiders. The populations change through time according the equations
 
-\begin{align*}
+\begin{eqnarray}
 \frac{dx}{dt} = x - xy \\
 \frac{dy}{dt} = xy - y(z^\alpha) \\
 \frac{dz}{dt} = x - z
-\end{align*}
+\end{eqnarray}
 
 To simplify the exposition, I include only one parameter $\alpha \in
 \\{0, 1\\}$, which indicates whether the region is contested. When the
-region accessible to multiple rival tribes, $\alpha$ takes the
-value $1$. If controlled by a single group, raiders do not deter
+region is accessible to multiple rival tribes, $\alpha$ takes the
+value $1$. If it is controlled by a single group, raiders do not deter
 hunting parties, 
 $\alpha = 0$, and the model
 collapses into the Lotka-Volterra equations, as seen below. A growing bison
