@@ -9,7 +9,7 @@ Current residents bear the costs of new development. Those costs take many forms
 
 In an ideal world, anyone wanting to move to a city could compensate the current residents for the congestion costs that they would impose. In practice, transaction costs make this arrangement impossible, but there are other schemes that accomplish the same goal. For instance, developers might provide cash payments to all residents living within a certain radius of any new construction, or the developer might pay an "impact fee" to the local government that would be spent on various public goods, such as schools, parks, or libraries.
 
-The Cicero Institute makes the case for this latter scheme in their proposal ["Align incentives for neighborhoods to build"](https://www.housingforcalifornia.org/proposals/incentives). They want to channel existing impact fees, which currently flow to the broader city government, to San Francisco's local neighborhood instead:
+The Cicero Institute makes the case for this latter scheme in their proposal ["Align incentives for neighborhoods to build"](https://www.housingforcalifornia.org/proposals/incentives). They want to channel existing impact fees, which currently flow to the broader city government, to San Francisco's local neighborhoods instead:
 
 > If each of San Francisco's 36 neighborhoods had a political organization, similar to
 > the currently weak "Community Boards" in New York, or the Advisory Neighborhood 
