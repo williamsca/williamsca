@@ -34,5 +34,39 @@ It's not clear whether this trend is because the nature of the position has
 changed, or whether broader social and demographic forces have aligned to reduce churn in
 this labor market.
 
+## Code
+
+```R
+rm(list = ls())    
+pacman::p_load(data.table, ggplot2)
+setwd("PATH")
+
+dt <- readRDS("INPUT")
+
+l <- dt[year_start >= 1920, .(avg_tenure = mean(tenure)), by=(year_end)]
+l <- l[order(year_end)]
+
+fit <- lm(tenure ~ year_end, data = dt)
+
+gg <- ggplot(l, aes(x=year_end, y=avg_tenure)) +
+  geom_point() +
+  geom_smooth(method='lm', se=F) +
+  labs(title = "A Familiar Face Waving the Baton",
+       subtitle = "Conductor Job Tenure Over the Past Century",
+       y = "Average Job Tenure",
+       x = "Departure Year",
+       caption = "Source: Wikipedia") +
+  theme(plot.title = element_text(margin = margin(t=15, b=-20)),
+        plot.subtitle = element_text(margin = margin(t=25, b=-20)),
+        panel.background = element_blank()) +
+  scale_x_continuous(limits=c(1920, 2020), breaks = c(1920, 1940, 1960, 1980, 2000, 2020))
+plot(gg)
+
+ggsave("OUTPUT")
+```
+
+
+
+
 
 
