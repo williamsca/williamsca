@@ -43,10 +43,9 @@ setwd("PATH")
 
 dt <- readRDS("INPUT")
 
-l <- dt[year_start >= 1920, .(avg_tenure = mean(tenure)), by=(year_end)]
+l <- dt[year_start >= 1920, .(avg_tenure = mean(tenure)),
+  by=(year_end)]
 l <- l[order(year_end)]
-
-fit <- lm(tenure ~ year_end, data = dt)
 
 gg <- ggplot(l, aes(x=year_end, y=avg_tenure)) +
   geom_point() +
@@ -59,7 +58,8 @@ gg <- ggplot(l, aes(x=year_end, y=avg_tenure)) +
   theme(plot.title = element_text(margin = margin(t=15, b=-20)),
         plot.subtitle = element_text(margin = margin(t=25, b=-20)),
         panel.background = element_blank()) +
-  scale_x_continuous(limits=c(1920, 2020), breaks = c(1920, 1940, 1960, 1980, 2000, 2020))
+  scale_x_continuous(limits=c(1920, 2020),
+                     breaks = c(1920, 1940,1960, 1980, 2000, 2020))
 plot(gg)
 
 ggsave("OUTPUT")
